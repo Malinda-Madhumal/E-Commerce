@@ -5,7 +5,9 @@ E commerce App for both IOS and Android.
 ___
 
 ## **Requirements**
+
 ___
+
 - [Node Js](https://nodejs.org/en/)
 - [Expo CLI](https://reactnative.dev/docs/environment-setup)
 - [Android Studio](https://developer.android.com/studio) (Windows)
@@ -15,6 +17,7 @@ ___
 See [Getting Started](https://reactnative.dev/docs/getting-started.html) to install requirements.
 
 ## **Packaged**
+
 ___
 
 - [React-Redux](https://react-redux.js.org/)
@@ -33,11 +36,11 @@ ___
 - [Safe Area Context](https://reactnavigation.org/docs/getting-started)
 - [Reanimated](https://docs.expo.dev/versions/latest/sdk/reanimated/)
 
-## __Get Started__
+## **Get Started**
 
 ___
 
-__1. Installation__
+**1. Installation**
 
 First open your command prompt or terminal and run.
 
@@ -53,7 +56,7 @@ First open your command prompt or terminal and run.
 
 ```
 
-__2. Run Simulator__
+**2. Run Simulator**
 
 Press **_a_** for Android and **_i_** for IOS in your terminal or command prompt.
 
@@ -64,6 +67,13 @@ Download Expo go and scan the QR code for run your own phone
 - [Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en&gl=US&pli=1) for Android
 - [App Store](https://apps.apple.com/us/app/expo-go/id982107779) for IOS
 
+## **Follow**
+
+___
+
+- [LinkedIn](https://www.linkedin.com/in/malinda-madhumal-43308321a/)
+- [Facebook](https://www.facebook.com/malinda.madhumal.1)
+- [Instagram](https://www.instagram.com/___m_a_l_i__/)
 
 ## Features 📃
 
