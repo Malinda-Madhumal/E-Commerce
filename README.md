@@ -6,8 +6,6 @@ ___
 
 ## **Requirements**
 
-___
-
 - [Node Js](https://nodejs.org/en/)
 - [Expo CLI](https://reactnative.dev/docs/environment-setup)
 - [Android Studio](https://developer.android.com/studio) (Windows)
@@ -17,8 +15,6 @@ ___
 See [Getting Started](https://reactnative.dev/docs/getting-started.html) to install requirements.
 
 ## **Packaged**
-
-___
 
 - [React-Redux](https://react-redux.js.org/)
 - [Redux-Toolkit](https://redux-toolkit.js.org/)
@@ -37,8 +33,6 @@ ___
 - [Reanimated](https://docs.expo.dev/versions/latest/sdk/reanimated/)
 
 ## **Get Started**
-
-___
 
 **1. Installation**
 
@@ -68,8 +62,6 @@ Download Expo go and scan the QR code for run your own phone
 - [App Store](https://apps.apple.com/us/app/expo-go/id982107779) for IOS
 
 ## **Follow**
-
-___
 
 - [LinkedIn](https://www.linkedin.com/in/malinda-madhumal-43308321a/)
 - [Facebook](https://www.facebook.com/malinda.madhumal.1)
