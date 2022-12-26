@@ -2,12 +2,12 @@ import { getAuth } from "firebase/auth";
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBxFsRYUR5zmmvMIxOJDo1CKS9iVGFtv18",
-  authDomain: "e-commerce-clone-9ad30.firebaseapp.com",
-  projectId: "e-commerce-clone-9ad30",
-  storageBucket: "e-commerce-clone-9ad30.appspot.com",
-  messagingSenderId: "543425995465",
-  appId: "1:543425995465:web:00fafec2aae1cdb3d3a318",
+  apiKey: "", // paste your apiKey
+  authDomain: "", // paste your authDomain
+  projectId: "", // paste your projectId
+  storageBucket: "", // paste your storageBucket
+  messagingSenderId: "", // paste your messaginSenderId
+  appId: "", // paste your appId
 };
 
 const app = initializeApp(firebaseConfig);
