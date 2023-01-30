@@ -11,6 +11,8 @@ import { Colors } from "../context/Colors";
 import { StatusBar } from "expo-status-bar";
 import { AntDesign } from "@expo/vector-icons";
 
+const width = Dimensions.get("screen").width;
+
 export default function Stories({ route, navigation }) {
   const { title, image } = route.params;
   const animation = React.useRef(new Animated.Value(0)).current;

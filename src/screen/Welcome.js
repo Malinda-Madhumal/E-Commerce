@@ -15,12 +15,14 @@ export default function Welcome({ navigation }) {
   React.useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((authUser) => {
       if (authUser) {
-        navigation.replace("Home");
+        setTimeout(() => {
+          navigation.replace("Home");
+        }, 2000);
       }
     });
 
     // ? clean the unsubscribe
-    return unsubscribe;
+    return () => unsubscribe();
   }, []);
 
   React.useEffect(() => {

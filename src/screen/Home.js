@@ -14,6 +14,9 @@ const HEADER_HEIGHT = 85;
 
 const Home = ({ navigation }) => {
   const [data, setData] = React.useState([]);
+  const [oldData, setOldData] = React.useState([]);
+  const [search, setSearch] = React.useState("");
+  const searchRef = React.useRef();
   const [loading, setLoading] = React.useState(true);
   const scrollY = React.useRef(new Animated.Value(0)).current;
   const diffClampScrollY = Animated.diffClamp(scrollY, 0, HEADER_HEIGHT);
@@ -28,6 +31,7 @@ const Home = ({ navigation }) => {
       const res = await fetch("https://fakestoreapi.com/products");
       const json = await res.json();
       setData(json);
+      setOldData(json);
     } catch (error) {
       alert(error.message);
     } finally {
@@ -38,6 +42,17 @@ const Home = ({ navigation }) => {
   React.useEffect(() => {
     getProductFromApi();
   }, []);
+
+  const onSearch = (text) => {
+    if (text === "") {
+      setData(oldData);
+    } else {
+      let tempList = data.filter((item) => {
+        return item.title.toLowerCase().indexOf(text.toLowerCase()) > -1;
+      });
+      setData(tempList);
+    }
+  };
 
   const total = useSelector(cartTotalSelector);
 
@@ -74,7 +89,12 @@ const Home = ({ navigation }) => {
         headerY={headerY}
         navigation={navigation}
         total={total}
+        search={search}
+        setSearch={setSearch}
+        searchRef={searchRef.current?.clear()}
+        onSearch={onSearch}
       />
+
       <Animated.ScrollView
         showsVerticalScrollIndicator={false}
         onScroll={Animated.event(

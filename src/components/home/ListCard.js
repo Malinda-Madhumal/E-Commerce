@@ -21,7 +21,7 @@ export default function ListCard({ item, navigation, addtoCart, dispatch }) {
         backgroundColor: "white",
         marginVertical: 5,
         elevation: 10,
-        width: 165,
+        width: 150,
         marginLeft: 10,
         marginRight: 10,
         borderRadius: 5,
@@ -39,7 +39,7 @@ export default function ListCard({ item, navigation, addtoCart, dispatch }) {
         <Image
           source={{ uri: item.image }}
           style={{
-            width: 165,
+            width: 150,
             height: 96,
             resizeMode: "cover",
             borderTopLeftRadius: 10,
